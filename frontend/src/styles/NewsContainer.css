@@ -1,0 +1,102 @@
+/* Container styling */
+.news-container {
+  padding: 20px; /* Space around the container */
+  position: relative; /* Position relative for absolute positioning of dropdown */
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between; /* Spread the elements */
+  align-items: center;
+  margin-bottom: 20px; /* Space below the top bar */
+}
+
+/* Category dropdown on the left */
+.dropdown-controls {
+  flex: 1; /* Take 1 part of the available space */
+}
+
+/* Search bar in the center */
+.search-controls {
+  flex: 2; /* Take 2 parts of the available space for centering */
+  display: flex;
+  justify-content: center; /* Center the search bar */
+}
+
+/* Ensure search input takes full width */
+.search-controls input {
+  padding: 10px; /* Padding inside the input */
+  width: 300px; /* Fixed width for the input */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px; /* Space between input and button */
+}
+
+/* Search button styling */
+.search-controls button {
+  padding: 10px 15px; /* Adjust padding for the button */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-controls button:hover {
+  background-color: #0056b3;
+}
+
+/* Align profile button to the right */
+.profile-button {
+  flex: 1; /* Take 1 part of the available space */
+  display: flex;
+  justify-content: flex-end; /* Align profile button to the right */
+}
+
+/* Profile button styles */
+.btn-profile {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-profile:hover {
+  background-color: #0056b3;
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu {
+  position: absolute; /* Position it below the button */
+  top: 50px; /* Adjust according to your button size */
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.dropdown-menu li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f1f1f1; /* Highlight on hover */
+}
+
+/* News cards styling */
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-gap: 20px;
+}

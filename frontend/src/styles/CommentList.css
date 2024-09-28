@@ -1,0 +1,25 @@
+/* Container for the entire comment list */
+.comment-list {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px; /* Limit the width */
+    background-color: #f0f0f0; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Styling for individual comments in the list */
+  .comment-list-item {
+    padding: 15px;
+    background-color: #fff; /* White background for comments */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 4px solid #007bff; /* Blue border on the left for visual emphasis */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Last comment should not have a bottom margin */
+  .comment-list-item:last-child {
+    margin-bottom: 0;
+  }
+  

@@ -1,0 +1,73 @@
+/* Login.css */
+
+/* Overall container styles */
+.login-container {
+    max-width: 400px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Space inside the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    background-color: #ffffff; /* White background for the form */
+}
+
+/* Title styling */ 
+h2 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+    font-family: 'Arial', sans-serif; /* Font family */
+    color: #333; /* Dark text color */
+}
+
+/* Input field styling */
+input[type="email"],
+input[type="password"] {
+    border: 1px solid #ccc; /* Light border for input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+    padding: 10px; /* Padding inside input fields */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    margin-bottom: 15px; /* Space below input fields */
+    font-size: 14px; /* Font size for inputs */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+/* Input field focus effect */
+input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+/* Button styling */
+button {
+    width: 100%; /* Full width for button */
+    padding: 10px; /* Padding inside the button */
+    font-size: 16px; /* Font size for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for button */
+    background-color: #007bff; /* Primary button color */
+    color: white; /* White text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Additional text styling */
+.text-muted {
+    font-size: 14px; /* Smaller font size for muted text */
+    text-align: center; /* Center the muted text */
+    margin-top: 15px; /* Space above muted text */
+}
+
+/* Link styling */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

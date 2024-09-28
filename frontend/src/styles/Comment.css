@@ -1,0 +1,36 @@
+/* Username styling */
+.comment-username {
+    font-weight: bold; /* Bold for emphasis */
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Timestamp styling */
+  .comment-timestamp {
+    font-size: 12px;
+    color: #888; /* Gray color for less emphasis */
+    margin-left: 10px;
+  }
+  
+  /* Comment text styling */
+  .comment-text {
+    font-size: 16px;
+    line-height: 1.6; /* Increase line height for readability */
+    color: #444; /* Darker gray for readability */
+    margin-top: 10px;
+  }
+  
+  /* Styling for replies within a comment */
+  .comment-replies {
+    margin-top: 15px;
+    padding-left: 20px;
+    border-left: 2px solid #ddd; /* Left border to distinguish replies */
+  }
+  
+  .reply-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
